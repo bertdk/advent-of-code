@@ -1,6 +1,5 @@
 import * as fs from "fs";
 import path from "path";
-import { createInterface } from "readline";
 
 const main = async () => {
   const filePath = path.join(__dirname, "input.txt");
