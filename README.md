@@ -7,7 +7,7 @@ Currently, I am using the following languages (navigate to the folder before run
 
 - TypeScript
   - Setup: `pnpm` + `tsconfig.json`
-  - Run: `ts-node src/2020/01/2023day01.ts`
+  - Run: `pnpm exec ts-node src/2020/01/2023day01.ts`
 - Dotnet
   - Setup: [dotnet-script](https://github.com/dotnet-script/dotnet-script) + [Dev Kit extension](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit)
   - Run: go to directory containing script and run `dotnet script 2023day01.csx`
